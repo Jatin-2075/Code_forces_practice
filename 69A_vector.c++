@@ -10,14 +10,15 @@ int main() {
             cin >> vectors[i][m];
         }
     }
-    int count = 0;
-    for(int i = 0; i < n; i++){
-        int temp = vectors[i][0] + vectors[i][1] + vectors[i][2];
-        if(temp == 0){
-            count++;
-        }
+
+    int x = 0, y = 0, z = 0;
+    
+    for(int i = 0; i < n; ++i){
+        x += vectors[i][0];
+        y += vectors[i][1];
+        z += vectors[i][2];
     }
-    if(count == 3){
+    if(x == 0 && y == 0 && z == 0){
         cout << "YES";
         return 0;
     }
