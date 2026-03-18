@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/codes/dsa/Code_forces_practice",
-      "program": "d:/codes/dsa/Code_forces_practice/build/Debug/outDebug",
+      "cwd": "d:/codes/dsa/Code_forces_practice/1001-2000/1901-2000",
+      "program": "d:/codes/dsa/Code_forces_practice/1001-2000/1901-2000/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
